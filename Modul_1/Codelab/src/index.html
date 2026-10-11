@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css">
+    <title>My Website</title>
+</head>
+
+<body class="min-h-screen flex flex-col">
+
+    <!--navbar-->
+    <header class="bg-primary text-white px-6 py-4">
+        <nav class="flex justify-between">
+            <h1 class="font-bold">MyWebsite</h1>
+
+            <ul class="flex gap-4">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--spacing-->
+    <section class="text-center py-20 px-6">
+        <h1 class="text-4xl font-bold mb-4">
+            Learn Tailwind CSS
+        </h1>
+
+        <p class="mb-6">
+            create a website easily
+        </p>
+
+        <button class="bg-primary text-white px-4 py-2 rounded">
+            Start now
+        </button>
+    </section>
+
+    <!--typography-->
+    <section class="px-6 py-10">
+        <h2 class="text-2xl font-bold text-center mb-4">
+            About Us
+        </h2>
+
+        <p class="text-gray-700 text-center leading-relaxed">
+            We provide modern web learning using Tailwind CSS.
+        </p>
+    </section>
+
+    <!--responsive layout-->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 py-10">
+
+        <!--card 1-->
+        <div class="bg-white p-4 rounded shadow">
+            <img
+            src="./images/Kucing1.jpg"
+            alt="Kucing Putih"
+            class="w-full h-auto rounded"
+            >
+
+            <h3 class="text-xl font-bold mt-4">
+                Kucing Putih
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+                Kucing putih yang memiliki hidung besar karena habis melakukan operasi.
+            </p>
+        </div>
+
+        <!--card 2-->
+        <div class="bg-white p-4 rounded shadow">
+            <img 
+            src="./images/Kucing2.jpg"
+            alt="Kucing Putih Mujaer"
+            class="w-full h-auto rounded"
+            >
+
+            <h3 class="text-xl font-bold mt-4">
+                Kucing Putih Mujaer
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+                Kucing putih terlihat marah karena belum diberikan makan
+            </p>
+        </div>
+
+        <!--card 3-->
+        <div class="bg-white p-4 rounded shadow">
+            <img
+            src="./images/Kucing3.jpg"
+            alt="Kucing Sholeh"
+            class="w-full h-auto rounded"
+            >
+
+            <h3 class="text-xl font-bold mt-4">
+                Kucing Sholeh
+            </h3>
+
+            <p class="mt-2 text-gray-600">
+                Kucing sholeh rajin pergi ke masjid sehingga mendapat julukan remaja masjid
+            </p>
+        </div>
+    </section>
+
+    <!--form dan footer-->
+    <section class="px-6 py-10">
+        <form class="bg-white p-6 rounded shadow max-w-md mx-auto">
+            <input type="text" placeholder="Nama" class="border p-2 w-full mb-4 rounded">
+
+            <button class="bg-primary text-white px-4 py-2 rounded">
+                Submit
+            </button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        Copyright 2026
+    </footer>
+
+</body>
+</html>
